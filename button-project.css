@@ -1,0 +1,92 @@
+.button {
+    margin: 5px 5px;
+    text-align: center;
+    font-size: x-large;
+    box-shadow: 0 9px #999;
+    cursor: pointer;
+}
+
+.serif {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.center {
+    justify-content: center;
+    display: flex;
+    margin-top: 25%;
+}
+
+.cart-btn {
+    background-color: #C63928;
+    color: #FFFFFF;
+    border-color: #C63928;
+}
+
+.start-btn {
+    background-color: #FDD835;
+    width: 7%;
+    border-color: #2A61FB;
+    color: #2A61FB;
+}
+
+.login-btn {
+    border-radius: 30px;
+    background: linear-gradient(to left, #9cd38d 23%, #5dd0d0 100%);
+    width: 10%;
+    color: #FFFFFF;
+}
+
+.sign-btn {
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    color: #6749EA;
+    border-color: #6749EA;
+    width: 9%;
+}
+
+.sub-btn {
+    border-radius: 5px;
+    background-color: #F9BF32;
+    color: #FFFFFF;
+    border-color: #F7AD32;
+    width: 12%;
+}
+
+.twitter-btn {
+    border-radius: 100%;
+    background-color: #FFFFFF;
+    padding: 15px;
+    color: #37A1F3;
+    border-color: #37A1F3;
+}
+
+.cart-btn:hover {
+    background-color: #ed4d50;
+}
+
+.start-btn:hover {
+    color: #FDD835;
+    background-color: #2A61FB;
+}
+
+.sub-btn:hover {
+    background-color: #F7AD32;
+    background-image: none;
+}
+
+.login-btn:hover {
+    color: #9cd38d;
+    background-color: #FFFFFF;
+    background-image: none;
+    border-color: #5dd0d0;
+}
+
+.sign-btn:hover {
+    background-color: #6749EA;
+    color: #FFFFFF;
+}
+
+.twitter-btn:hover {
+    background-color: #37A1F3;
+    color: #FFFFFF;
+}
